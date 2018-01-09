@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SpaceInvaders
+</name>
+</assembly>
+<members>
+<member name="P:SpaceInvaders.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:SpaceInvaders.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:SpaceInvaders.My.Resources.Resources.img">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SpaceInvaders.My.Resources.Resources.img1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SpaceInvaders.My.Resources.Resources.SpaceInvadersBally1979">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SpaceInvaders.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member><member name="M:SpaceInvaders.SplashScreenPause.Button1_Click(System.Object,System.EventArgs)">
+	<summary>
+ Permet de revenir au jeu
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:SpaceInvaders.SplashScreenPause">
+	<summary>
+ Cette fenetre a pour but d'informer le joueur des touches mais aussi de faire une pause
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.SplashScreen1.Button1_Click(System.Object,System.EventArgs)">
+	<summary>
+ Permet d'accéder au Jeu quand on appuie sur le bouton Jouer et ferme cette page d'accueil
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.FrmSpaceInvaders_Load(System.Object,System.EventArgs)">
+	<summary>
+ Chargement de l'application
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.initialiserPanelAlien">
+	<summary>
+ On initialise le panel des aliens avec des images en pictureBox
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.Initialiserpartie">
+	<summary>
+ On initialise la partie
+ </summary>
+	<remarks> On insére les aliens, on crée le vaisseau</remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.tmrMissile_Tick(System.Object,System.EventArgs)">
+	<summary>
+ Timer pour les missiles
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.tmrJeu_Tick(System.Object,System.EventArgs)">
+	<summary>
+ Timer pour les aliens
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.deplacerAlien">
+	<summary>
+ On gère le déplacement des aliens
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.deplacervaisseau(System.Int32)">
+	<summary>
+ On gère le déplacement du vaisseau
+ </summary>
+	<param name="move"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.testCollisionmissile">
+	<summary>
+ Test de Colision entre un alien et un missile
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.arriveeEnBas">
+	<summary>
+ Test de collision entre un alien et le bas de l'écran
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.verifFinVague">
+	<summary>
+ On vérifie si tous les aliens du niveau ont été tués
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.augmenterDifficulte">
+	<summary>
+ Augmentation de la difficulté à chaque level
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.genererVagueAlien(System.Int32,System.Int32)">
+	<summary>
+ Générer une nouvelle vague d'aliens à un nouveau niveau
+ </summary>
+	<param name="nbRangee"></param>
+	<param name="nbAlienRangee"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.lancementMissile">
+	<summary>
+ Gérer le lancement des missiles du vaisseau
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.deplacerMissile">
+	<summary>
+ Gérer le déplacement des missiles du vaisseau
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.frmInterface_Clavier(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Gérer les touches appuyées du clavier
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.btnJouer_Click(System.Object,System.EventArgs)">
+	<summary>
+ On lance les timers pour jouer
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.btnQuitter_Click(System.Object,System.EventArgs)">
+	<summary>
+ On quitte l'application avec une vérification avant
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.Perdu">
+	<summary>
+ Detecte si le joueur à perdu la perdue, c'est à dire s'il y a eu une collision entre alien et bas de la fenêtre
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SpaceInvaders.frmSpaceInvaders.CalculPoucentage">
+	<summary>
+ Calcul du pourcentage de tir
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:SpaceInvaders.frmSpaceInvaders">
+ Mini-Projet : SpaceInvaders
+ Charles Ecollan
+ Jean-Luc NGUYEN
+ TP 2-C
+ Crée le 26/05/2015
+
+</member>
+</members>
+</doc>
